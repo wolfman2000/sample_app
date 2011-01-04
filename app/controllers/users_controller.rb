@@ -6,6 +6,7 @@ class UsersController < ApplicationController
   end
 
   def new
+    @user = User.new # required for the form to work.
     @title = "Sign up"
   end
 
