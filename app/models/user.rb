@@ -27,6 +27,11 @@ class User < ActiveRecord::Base
 
   before_save :encrypt_password
 
+  # Return true if user's password matches submitted password.
+  def has_password?(submitted_password)
+    # Do the logic soon.
+  end
+
   private
 
   def encrypt_password
