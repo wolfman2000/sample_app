@@ -34,6 +34,7 @@ gem 'gravatar_image_tag', '1.0.0.pre2' # Force a higher version this time.
 group :development do
 	gem 'rspec-rails'
 	gem 'annotate-models'
+	gem 'faker'
 end
 
 group :test do
